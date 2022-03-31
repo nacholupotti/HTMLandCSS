@@ -1,0 +1,565 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Be Vietnam Pro;
+}
+
+/* HEADER */
+#header-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  flex-direction: row;
+  height: 174px;
+  align-items: center;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+#right-header {
+  display: flex;
+}
+
+#menu-mobile {
+  display: none;
+}
+
+#center-head-nav {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+}
+.header-list {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+#header-container li {
+  font-size: 0.8125rem;
+  padding: 2%;
+}
+
+.orange-button {
+  background-color: rgba(243, 96, 59, 1);
+  color: white;
+  border-radius: 33%;
+  border: 0px;
+  height: 44px;
+  width: 134px;
+  left: 1140.5360107421875px;
+  top: 65px;
+  border-radius: 50px;
+  padding: 10px;
+}
+
+/* MAIN */
+#main-container {
+  display: flex;
+  height: 525px;
+  width: 80%;
+  justify-content: space-around;
+  margin: auto;
+}
+
+#left-main {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+#right-main {
+  display: flex;
+  width: 50%;
+}
+
+h1 {
+  font-size: 3.625rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 66px;
+  letter-spacing: -0.035em;
+  text-align: left;
+  color: rgba(35, 44, 80, 1);
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+#left-p {
+  font-size: 1rem;
+  font-weight: bold;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-right: 50%;
+  width: 61.5%;
+  margin-bottom: 1rem;
+}
+
+/* DETAIL */
+#detail-container {
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  margin: auto;
+  padding-top: 7.25rem;
+}
+
+h2 {
+  font-size: 2.25rem;
+  width: 71.06%;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(35, 40, 81, 1);
+  margin-bottom: 0px;
+}
+
+#left-detail {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+#left-detail p {
+  margin-top: 2.25rem;
+}
+
+#right-detail {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.right-detail-article {
+  display: flex;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 23px;
+}
+
+h4 {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.article-p {
+  margin-top: 1.125rem;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: rgba(179, 178, 183, 1);
+  text-align: justify;
+}
+
+#button-number {
+  width: 69px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+/* Opinion */
+#carrusel {
+  display: none;
+}
+
+#opinion-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+}
+
+#opinion-container h2 {
+  text-align: center;
+  margin-bottom: 6.8125rem;
+  margin-top: 8.82125rem;
+}
+
+#cards-container {
+  display: flex;
+  justify-content: center;
+}
+
+.avatar-container {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  margin: auto;
+  position: absolute;
+  top: -35px;
+  left: 187.5px;
+}
+
+.opinion-img {
+  background-size: cover;
+  width: 100%;
+}
+
+.opinion-article {
+  display: flex;
+  width: 445px;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(185, 185, 193, 0.05);
+  position: relative;
+}
+
+.opinion-article h4 {
+  margin-top: 3.56125rem;
+  color: rgba(63, 72, 104, 1);
+}
+
+.opinion-article p {
+  text-align: center;
+  width: 24.375rem;
+}
+
+#opinion-container .orange-button {
+  margin-top: 2.8125rem;
+  margin-bottom: 11.25rem;
+}
+
+/* PRE-FOOTER */
+.footer-container {
+  display: flex;
+  width: 100%;
+  background-color: rgba(243, 97, 60, 1);
+  justify-content: space-around;
+  align-items: center;
+  height: 224px;
+}
+
+.footer-container h2 {
+  color: white;
+  width: 30.41%;
+}
+
+#footer-button {
+  color: rgba(243, 97, 60, 1);
+  background-color: white;
+  box-shadow: 500px 500px black;
+}
+
+/* FOOTER */
+#footer-container {
+  background-color: rgba(30, 30, 38, 1);
+  display: flex;
+  justify-content: space-around;
+}
+
+#footer-left,
+#footer-right {
+  display: flex;
+  height: 80%;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+#footer-mid {
+  display: flex;
+  width: 45%;
+  justify-content: space-around;
+}
+#footer-midright,
+#footer-midleft {
+  display: flex;
+  color: white;
+  height: 70%;
+}
+
+#footer-p {
+  color: rgba(140, 140, 148, 1);
+  font-size: 0.78125rem;
+}
+
+#text-input {
+  background-color: white;
+  width: 12.56rem;
+  color: black;
+}
+
+#no-show {
+  color: rgba(30, 30, 38, 1);
+}
+
+#submit-button {
+  width: 3.9375rem;
+}
+
+.footer-list li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  list-style-type: none;
+  padding-bottom: 10px;
+}
+
+#icon-container i {
+  color: white;
+  padding: 2%;
+}
+
+/* PSEUDOCLASES */
+
+.orange-button:hover {
+  background-color: white;
+  color: rgba(243, 97, 60, 1);
+  border: 1px solid;
+  transition: background-color 0.5s;
+  cursor: pointer;
+}
+#icon-container i:hover {
+  color: rgba(243, 97, 60, 1);
+  transition: background-color 0.5s;
+  cursor: pointer;
+}
+
+#text-input:focus {
+  background-color: lightseagreen;
+  transition: background-color 0s;
+}
+
+@media only screen and (max-width: 376px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    height: 100%;
+  }
+  body {
+    min-height: 100%;
+  }
+
+  /* HEADER */
+  #center-head-nav {
+    display: none;
+  }
+
+  #header-container {
+    align-items: center;
+  }
+  #header-container button {
+    display: none;
+  }
+
+  #menu-mobile {
+    display: flex;
+    font-size: 1.7rem;
+    margin-bottom: 0.8rem;
+    color: rgba(35, 44, 80, 1);
+  }
+
+  /* MAIN */
+  #main-container {
+    flex-direction: column-reverse;
+    height: 100%;
+    width: 90%;
+    text-align: center;
+  }
+
+  #left-main,
+  #right-main,
+  #left-detail,
+  #right-detail {
+    width: 100vw;
+    align-items: center;
+    text-align: center;
+  }
+
+  #right-main-img {
+    width: 100%;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+
+  #left-p {
+    margin-right: 0px;
+    text-align: center;
+    width: 80%;
+  }
+
+  #left-detail-p {
+    margin-top: 0.5rem;
+  }
+
+  #detail-container {
+    flex-direction: column;
+    width: 95%;
+    margin: auto;
+    padding-top: 3.5rem;
+  }
+  #detail-container h2 {
+    text-align: center;
+    width: 100%;
+  }
+  .text-container {
+    position: relative;
+    margin-left: 0px;
+  }
+
+  #detail-container h4 {
+    margin-bottom: 12rem;
+    margin-top: 0px;
+    background-color: rgba(243, 96, 59, 0.1);
+    color: rgba(35, 44, 80, 1);
+    padding: 12px;
+  }
+
+  .button-number-container {
+    height: 44px;
+    background-color: rgba(243, 96, 59, 0.1);
+  }
+
+  #detail-container .article-p {
+    position: absolute;
+    left: -83px;
+    top: 2.2rem;
+  }
+  /* OPINION */
+  #carrusel {
+    display: flex;
+    color: white;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  #carrusel li::before {
+    content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: rgba(243, 96, 59, 1);
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
+
+  #opinion-container h2 {
+    margin-bottom: 5rem;
+    margin-top: 1rem;
+  }
+
+  #opinion-container h4 {
+    margin-bottom: 0rem;
+  }
+
+  .opinion-article {
+    width: 100%;
+  }
+
+  .opinion-article p {
+    text-align: center;
+    position: relative;
+    width: 100%;
+  }
+
+  #Richard,
+  #Anisha {
+    display: none;
+  }
+
+  #opinion-container .orange-button {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  #cards-container {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .avatar-container {
+    left: 116.95px;
+  }
+
+  /* pre-footer */
+  .footer-container {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .footer-container h2 {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* footer */
+  #footer-container,
+  #footer-left {
+    flex-direction: column-reverse;
+  }
+
+  #footer-container {
+    padding: 1rem;
+    justify-content: space-around;
+    height: 405px;
+  }
+
+  #footer-right,
+  #footer-midright,
+  #footer-midleft,
+  #footer-left {
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  #footer-mid {
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  #footer-right {
+    position: relative;
+  }
+
+  #footer-p-container {
+    position: absolute;
+    top: 370px;
+    left: 60px;
+  }
+
+  #form-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  #icon-container {
+    display: flex;
+    margin-bottom: 1rem;
+    width: 100%;
+    justify-content: space-around;
+    font-size: 1.7rem;
+  }
+}
